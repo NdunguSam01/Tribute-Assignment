@@ -1,0 +1,110 @@
+html
+{
+    font-family: "Raleway";
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.header
+{
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header h1
+{
+    color: black;
+    font-size: 4em;
+}
+.header h3
+{
+    font-style: italic;
+    font-size: 1.5em;
+    color: #d8bea5;
+    padding-bottom: 10px;
+}
+.header h1, .header h3
+{
+    text-align: center;
+}
+hr
+{
+    border: 2px solid black;
+    width: 50%;
+}
+.main
+{
+    top: 29%;
+    height: 70%;
+    background-color: #d8bea5;
+}
+.main figure img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.main figure figcaption
+{
+    font-style: italic;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 20px;
+}
+.content
+{
+    top: 90%;
+    background-color: white;
+}
+.content h2
+{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+.content .content-list, .content .tribute
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.content .content-list ul
+{
+    line-height: 1.5;
+}
+.content .tribute 
+{
+    font-size: 20px;
+}
+.content .tribute i
+{
+    padding-left: 30%;
+}
+.content .tribute h3
+{
+    font-size: 19px;
+    margin-left: 20px;
+}
+.content .footer
+{
+    background-color: #d8bea5;
+    text-align: center;
+    padding: 15px;
+}
+.header, .main, .content
+{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+a,a:visited
+{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
