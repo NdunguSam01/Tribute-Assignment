@@ -18,13 +18,13 @@ html
     color: black;
     font-size: 4em;
 }
-.header h3
+.header p
 {
     font-style: italic;
     font-size: 1.5em;
     color: #d8bea5;
 }
-.header h1, .header h3
+.header h1, .header p
 {
     text-align: center;
     padding-top: 20px;
@@ -76,6 +76,10 @@ hr
     line-height: 1.5;
     font-size: 1.5em;
 }
+.content ul li span
+{
+    font-weight: bold;
+}
 .content, .tribute
 {
     display: block;
@@ -87,8 +91,9 @@ hr
 {
     padding-top: 20px;
     font-size: 20px;
+    line-height: 1.8;
 }
-.tribute i
+.tribute em
 {
     padding-left: 30%;
 }
